@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ctr=$(buildah from debian:bookworm);
 buildah run $ctr sh -- <<EOF
 	apt-get update;
