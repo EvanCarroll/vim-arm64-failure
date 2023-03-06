@@ -1,0 +1,1 @@
+﻿vim.opt.background = 'dark'
