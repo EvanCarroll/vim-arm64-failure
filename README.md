@@ -7,3 +7,7 @@ This should generate an error on arm64
 > E5112: Error while creating lua chunk: `/root/.config/nvim/init.lua:1:1` unexpected symbol near `'<ef>'`
 >
 > Press ENTER or type command to continue
+
+Bug filed here
+
+* https://github.com/neovim/neovim/issues/22546
