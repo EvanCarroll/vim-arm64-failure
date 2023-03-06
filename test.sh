@@ -7,4 +7,4 @@ EOF
 
 buildah commit $ctr bookworm-vim;
 
-podman run ./nvim/:/root/.config/nvim/ -ti bookworm-vim nvim
+podman run -v ./nvim/:/root/.config/nvim/ -ti bookworm-vim nvim
